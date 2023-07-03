@@ -6,7 +6,7 @@ const recipieCloseBtn = document.querySelector('.recipie-close-btn');
 
 
 const fetchRecipies =async (query) =>{
-    recipieContainer.innerHTML = "<h2>Fetchingh Recipies...<h2>";
+    recipieContainer.innerHTML = "<h2>Fetchingh Recipes...<h2>";
 
     try{
     const data= await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${query}`);
